@@ -1,0 +1,219 @@
+.container{
+	width:960px;
+	margin:20px auto;
+}
+h2{
+	font-size: 1.6em;
+	font-weight: bold;
+	font-style: italic;
+	border-bottom: 1px solid #DDD;
+	color:#999;
+	position:relative;
+}
+
+table{
+	width:97%;
+	margin:20px;
+	border:1px solid #DDD;
+}
+thead{
+		background-color: #444;
+		color:#FFF;
+		font-weight: normal;
+		height:40px;
+		line-height: 40px;
+	}
+tbody tr {
+	border-bottom: 1px solid #999;
+	background-color: #EEE;
+	height:30px;
+}
+tbody tr td{
+text-align:center ;
+}
+tbody tr td a{
+	text-decoration: none;
+	color:inherit;
+
+}
+.total{
+	
+	width:400px;
+	margin:20px;
+	margin-left: 500px;
+
+	border:1px solid #DDD;
+	background-color: #EEE;
+	padding:20px;
+}
+.total p{
+	text-align: right;
+	border-bottom: 1px dotted #DDD;
+}
+.total p span{
+	width:320px;
+	display: inline-block;
+	text-align: left;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+button {
+	border: 1px solid #DDD;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #01E9E9;
+}
+button a {
+	text-decoration: none;
+	color:#444;
+}
+
+button:hover{
+	background-color: #A9FFF4;
+
+	border-color:#FFF;
+}
+
+
+
+/* style des produits	*/
+.produits{
+	padding:0;
+}
+.produits li{
+	float:left;
+	display: block;
+	width:150px;
+	height:250px;
+	border:1px solid #999;
+	margin:20px;
+	border-radius: 5px 0 5px 5px;
+	box-shadow: 2px 2px 2px #DDD;
+	text-align: center;
+	position: relative;
+}
+.produits li span{
+	display: block;
+	width:100%;
+	height:30px;
+}
+.produits .admin{
+	position:absolute;
+	right:-31px;
+	top:0;
+	width:30px;
+	height:64px;
+	border-radius:0 5px 5px 0;
+}
+.produits .admin span{
+	width:30px;
+	height:30px;
+	border-radius: 00 5px 5px 0;
+	border:1px solid #444;
+	border-left:0;
+	margin-bottom: 2px;
+}
+
+
+.produits li .titre{
+	font-weight: bold;
+	font-style: italic;
+	color:#DE0F5B;
+}
+.produits li .prix{
+	font-size: 1.3em;
+	text-align: right;
+	color:#DE0F5B;
+	}
+.produits li .image{
+	height : 150px;
+	width:150px ;
+	text-align: center;
+	}
+.produits .admin span a{
+	display:block;
+	height:100%;
+  width:100%;
+}
+h2 a{
+	display:block;
+	height:25px;
+	width:120px;
+	background:#FF73BF;
+	color:#FFF;
+	margin:5px auto;
+	line-height:25px;
+	font-size:.65em;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 5px;
+	position:absolute;
+	top:0;
+	right:0;
+	width:150px!important;
+	
+}
+
+
+input[type="submit"]{
+	height: 30px!important;
+	cursor: pointer;
+}
+/*HEADER*/
+header{
+	background: #DDD;
+	padding:40px 0;
+	border:1px solid #CCC;
+}
+header h1{
+	color:#ED0077;
+	font-style: italic;
+	text-align: center;
+}
+/* FOOTER	*/
+footer{
+	height:30px;
+	background: #444;
+	padding:30px 0;
+	border:1px solid #CCC;
+}
+footer p{
+	text-align: center;
+	font-size: .9em;
+	font-style: italic;
+	color:#FFF;
+}
+
+footer p a{ font-weight: bold; color:#999;}
+
+/*clearfix*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html .clearfix {
+	display: block;
+
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+/* les messages*/
+.success{
+	background: #98E17E;
+	color:#3B6B2A;
+	border:1px solid #3B6B2A;
+	border-radius: 5px;
+	text-align: center;
+	padding:5px 10px;
+}
